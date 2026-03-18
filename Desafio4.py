@@ -1,8 +1,8 @@
-# Passo 1: Solicite os números ao usuário
+# Prineiro, solicite os números ao usuário
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
 
-# Passo 2: Solicite a operação
+# Depois, solicite a operação
 print("\nEscolha a operação:")
 print("+ : Soma")
 print("- : Subtração")
@@ -10,7 +10,7 @@ print("* : Multiplicação")
 print("/ : Divisão")
 operacao = input("Digite o símbolo da operação: ")
 
-# Passo 3: Realize o cálculo baseado na escolha
+# Por último, realize o cálculo baseado na escolha
 if operacao == "+":
     resultado = num1 + num2
     print(f"\nResultado: {num1} + {num2} = {resultado}")
