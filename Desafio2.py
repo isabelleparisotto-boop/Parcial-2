@@ -1,4 +1,3 @@
-
 # Programa que verifica se um número é par
 
 # Pergunta ao usuário que digite um número
