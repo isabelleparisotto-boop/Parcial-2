@@ -15,15 +15,15 @@ if operacao == "+":
     resultado = num1 + num2
     print(f"\nResultado: {num1} + {num2} = {resultado}")
 
-elif operacao == "-":
+else operacao == "-":
     resultado = num1 - num2
     print(f"\nResultado: {num1} - {num2} = {resultado}")
 
-elif operacao == "*":
+else operacao == "*":
     resultado = num1 * num2
     print(f"\nResultado: {num1} * {num2} = {resultado}")
 
-elif operacao == "/":
+else operacao == "/":
     # Por último, verifique para evitar erro de divisão por zero
     if num2 != 0:
         resultado = num1 / num2
