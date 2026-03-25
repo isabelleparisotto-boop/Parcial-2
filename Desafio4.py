@@ -1,35 +1,24 @@
-# Primeiro, solicite os números ao usuário
-num1 = float(input("Digite o primeiro número: "))
-num2 = float(input("Digite o segundo número: "))
+# Solicite os números ao usuário 
+num1 = float(input("Escolha um número "))
+num2 = float(input("Escolha outro número "))
 
-# Depois, solicite a escolha da operação
-print("\nEscolha a operação:")
-print("+ : Soma")
-print("- : Subtração")
-print("* : Multiplicação")
-print("/ : Divisão")
-operacao = input("Digite o símbolo da operação: ")
+#Agora, o usuário deve escolher a operação
+operação = input("Escolha uma operação [soma, subtração, divisão ou multiplicação]")
 
-# Por último, realize o cálculo baseado na escolha
-if operacao == "+":
-    resultado = num1 + num2
-    print(f"\nResultado: {num1} + {num2} = {resultado}")
+#Vamos realizar as operações 
 
-else operacao == "-":
-    resultado = num1 - num2
-    print(f"\nResultado: {num1} - {num2} = {resultado}")
-
-else operacao == "*":
-    resultado = num1 * num2
-    print(f"\nResultado: {num1} * {num2} = {resultado}")
-
-else operacao == "/":
-    # Por último, verifique para evitar erro de divisão por zero
-    if num2 != 0:
-        resultado = num1 / num2
-        print(f"\nResultado: {num1} / {num2} = {resultado}")
-    else:
-        print("\nErro: Não é possível dividir por zero!")
-
+# Raliza a operação de soma
+if operação == "soma":
+    print(num1 + num2)
+# Realiza a subtração
+elif operação == "subtração":
+    print(num1-num2)
+# Realiza a multiplicação
+elif operação == "multiplicação":
+    print(num1*num2)
+# Realiza a divisão
+elif operação == "divisão":
+    print(num1/num2)
+# Se for uma operaçãop que não existe diga 'esse número não existe'
 else:
-    print("\nOperação inválida. Tente novamente.")
+    print('esse numero não existe')
