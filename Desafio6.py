@@ -1,7 +1,7 @@
 # Entrada do usuário
 total_segundos = int(input("Digite a quantidade de segundos: "))
 
-#Faz-se o cálculo das horas (divisão inteira por 3600)
+#Fazemos o cálculo das horas (divisão inteira por 3600)
 horas = total_segundos // 3600
 
 # Aquilo que sobrar das horas, usamos para calcular os minutos
