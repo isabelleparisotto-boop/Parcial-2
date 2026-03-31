@@ -1,4 +1,3 @@
-# Programa que verifica se um número é par
 
 # Perguntamos ao usuário que digite um número
 numero = int(input("Digite um número: "))
