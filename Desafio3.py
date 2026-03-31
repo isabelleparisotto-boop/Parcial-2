@@ -1,4 +1,3 @@
-# Vamos criar uma lista com 5 nomes:
 # Pediremos ao usuário que liste 5 nomes 
 nome = input("Digite um nome: ")
 nome1 = input("Digite um nome: ")
