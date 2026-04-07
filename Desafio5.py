@@ -1,5 +1,5 @@
 # Solicita os dados ao usuário
-# Criamos as variáveis 'base' e 'altura' através do 'float' que é utilizado para representar números reais
+# Criamos as variáveis 'base' e 'altura' através do 'float' que é utilizado para representar números reais e o input que é para entrada de dados 
 base = float(input("Digite a base do triângulo: "))
 altura = float(input("Digite a altura do triângulo: "))
 
